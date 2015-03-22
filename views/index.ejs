@@ -6,6 +6,7 @@
 
     <!-- Polymer Components -->
     <link rel="import" href="/polymer/my-element.html">
+    <link rel="import" href="/polymer/post-card.html">
 
 </head>
 <body>
@@ -14,6 +15,14 @@
 
 <!-- Sample Polymer cpomponent -->
 <my-element></my-element>
+
+<post-card>
+    <!-- The template defines showing a span first, then div.
+        I purposefully swapped the order here to show the template takes priority.
+    -->
+    <div>Div Test</div>
+    <span>Span Test</span>
+</post-card>
 
 <script src="/components/polymer/polymer.js"></script>
 <script src="/javascripts/app.js"></script>
