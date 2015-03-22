@@ -3,10 +3,18 @@
 <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <!-- Polymer Components -->
+    <link rel="import" href="/polymer/my-element.html">
+
 </head>
 <body>
 <h1><%= title %></h1>
 <p>Welcome to <%= title %></p>
+
+<!-- Sample Polymer cpomponent -->
+<my-element></my-element>
+
 <script src="/components/polymer/polymer.js"></script>
 <script src="/javascripts/app.js"></script>
 </body>
